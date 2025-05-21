@@ -9,6 +9,9 @@ body {
 .flex-container {
     /* Make this into a flexbox using display: flex */
     /* Use flexbox properties to stack your tiles vertically and center them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flex-tile {
@@ -16,7 +19,7 @@ body {
     /* Use flexbox properties to stack elements in your tiles vertically and center them */
 
     /* setting the width for each tile */
-    width: 40%;
+    width: 50vw;
 
     /* spacing tiles */
     margin: 5%;
@@ -26,5 +29,11 @@ body {
     background-color: white;
 }
 
+img{
+    width: 50vw;
+}
 
+h1{
+    text-align: center;
+}
 
