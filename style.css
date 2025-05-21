@@ -17,7 +17,10 @@ body {
 .flex-tile {
     /* Make this into a flexbox using display: flex */
     /* Use flexbox properties to stack elements in your tiles vertically and center them */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* setting the width for each tile */
     width: 35vw;
 
@@ -27,11 +30,21 @@ body {
 
     /* background color for tile, feel free to change */
     background-color: white;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+.flex-tile:hover {
+    background-color: #e0ecff;
+    cursor: pointer;
 }
 
 img{
     width: 35vw;
     align-items: center;
+    animation: opacity 5s infinite;
 }
 
 h1{
@@ -74,4 +87,28 @@ pre{
     border-radius: 10px;
     background: #fff1e6;  
     color: rgb(0, 0, 0); 
+
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ffdab7;
+    transform: scale(1.05);
+}
+
+.btn1:active {
+    background-color: #111;
+    transform: scale(0.95);
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 60%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
