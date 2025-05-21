@@ -97,6 +97,9 @@ pre{
     transform: scale(1.05);
 }
 
+.btn:active{
+    transform: scale(0.85);
+}
 
 a:active{
     transform: scale(0.85);
