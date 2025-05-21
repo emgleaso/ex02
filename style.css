@@ -19,7 +19,7 @@ body {
     /* Use flexbox properties to stack elements in your tiles vertically and center them */
 
     /* setting the width for each tile */
-    width: 50vw;
+    width: 30vw;
 
     /* spacing tiles */
     margin: 5%;
@@ -30,10 +30,30 @@ body {
 }
 
 img{
-    width: 50vw;
+    width: 30vw;
+    align-items: center;
 }
 
 h1{
     text-align: center;
+    font-size: 20px;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
+ul{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+li{
+    text-align: center;
+
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
