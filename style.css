@@ -97,11 +97,11 @@ pre{
     transform: scale(1.05);
 }
 
-.btn1:active {
-    background-color: #111;
-    transform: scale(0.75);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5);
+
+a:active{
+    transform: scale(0.85);
 }
+
 
 @keyframes opacity {
     0%{
